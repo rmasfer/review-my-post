@@ -22,7 +22,8 @@ class rmp
 
     public function init()
     {
-
+        require_once RMP_PLUGIN_DIR_URI . 'src/core/controller/class-base-controller.php';
+        require_once RMP_PLUGIN_DIR_URI . 'src/core/controller/rmp-post-meta.php';
     }
 }
 
